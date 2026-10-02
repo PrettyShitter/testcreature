@@ -1,0 +1,53 @@
+{
+  "x.ai": { "displayName": "xAI" },
+  "template.net": { "displayName": "Template.net" },
+  "stablediffusionweb.com": { "displayName": "Stable Diffusion Online" },
+  "deepdreamgenerator.com": { "displayName": "Deep Dream Generator" },
+  "starryai.com": { "displayName": "StarryAI" },
+  "easy-peasy.ai": { "displayName": "Easy-Peasy.AI" },
+  "openart.ai": {
+    "displayName": "OpenArt",
+    "coverUrl": "/logos/openart.png",
+    "coverSourceUrl": "https://openart.ai/pageforge-assets/favicon/favicon-96x96.png",
+    "coverVerifiedAt": "2026-10-02",
+    "pricing": {
+      "sourceUrl": "https://openart.ai/pricing",
+      "verifiedAt": "2026-10-02",
+      "plans": [
+        { "name": "Starter", "amount": 13, "currency": "USD", "billingPeriod": "mo / seat", "billingNote": "Promotional price; regular price is $14/mo." },
+        { "name": "Plus", "amount": 27, "currency": "USD", "billingPeriod": "mo / seat", "billingNote": "Promotional price; regular price is $34/mo." },
+        { "name": "Pro", "amount": 44, "currency": "USD", "billingPeriod": "mo / seat", "billingNote": "Promotional price; regular price is $56/mo." }
+      ]
+    }
+  },
+  "synthesia.io": {
+    "displayName": "Synthesia",
+    "coverUrl": "/logos/synthesia.png",
+    "coverSourceUrl": "https://cdn.prod.website-files.com/65e89895c5a4b8d764c0d710/664f0f482fa5a4d527d892bc_Favicon-Web-Security%201.png",
+    "coverVerifiedAt": "2026-10-02",
+    "pricing": {
+      "sourceUrl": "https://www.synthesia.io/pricing",
+      "verifiedAt": "2026-10-02",
+      "plans": [
+        { "name": "Basic", "amount": 0, "currency": "USD", "billingPeriod": "mo", "billingNote": "10 video minutes and 1,200 credits per month" },
+        { "name": "Starter", "amount": 18, "currency": "USD", "billingPeriod": "mo", "billingNote": "Monthly equivalent when billed yearly; $29 billed monthly" },
+        { "name": "Creator / Pro", "amount": 64, "currency": "USD", "billingPeriod": "mo", "billingNote": "Monthly equivalent when billed yearly; $89 billed monthly. Renamed Pro on October 1." }
+      ]
+    }
+  },
+  "v0.app": {
+    "displayName": "v0 by Vercel",
+    "coverUrl": "/logos/v0.svg",
+    "coverSourceUrl": "https://v0.app/chat-static/_next/static/immutable/media/logo-v0-light.442nx-e-yl-x_.svg",
+    "coverVerifiedAt": "2026-10-02",
+    "pricing": {
+      "sourceUrl": "https://v0.app/pricing",
+      "verifiedAt": "2026-10-02",
+      "plans": [
+        { "name": "Free", "amount": 0, "currency": "USD", "billingPeriod": "mo", "billingNote": "$5 in monthly credits; up to 7 messages per day" },
+        { "name": "Plus", "amount": 30, "currency": "USD", "billingPeriod": "mo / user" },
+        { "name": "Business", "amount": 100, "currency": "USD", "billingPeriod": "mo / user" }
+      ]
+    }
+  }
+}
