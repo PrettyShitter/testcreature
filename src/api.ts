@@ -22,7 +22,7 @@ export const categoryNames = {
 } as const
 
 type ApiResponse = { ok: boolean; index?: string; total: number; results: Array<Record<string, unknown>>; filters?: Record<string, unknown> }
-const endpoint = import.meta.env.DEV ? '/api/freeserp' : 'https://freeserp.ai/api.php'
+const endpoint = '/api/freeserp'
 const cache = new Map<string, { expires: number; value: ApiResponse }>()
 
 export function normalize(row: Record<string, unknown>): Tool | null {
