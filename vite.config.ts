@@ -26,4 +26,8 @@ const localApiFunctions = () => ({
   },
 })
 
-export default defineConfig({ plugins: [react(), localApiFunctions()], server: { proxy }, preview: { proxy } })
+export default defineConfig({
+  plugins: [react(), localApiFunctions()],
+  server: { proxy },
+  preview: { allowedHosts: ['ws-60.ws.semalt.dev'], proxy },
+})
